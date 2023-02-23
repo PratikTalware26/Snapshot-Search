@@ -46,7 +46,7 @@ const Header = () => {
         </div>
       </div>
       <div className="input-disp">
-        <h2>{input}</h2>
+        <h2>{inp}</h2>
       </div>
       <div className="list-cont">
         <ul className="search-list">
