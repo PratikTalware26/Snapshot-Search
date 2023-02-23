@@ -23,8 +23,15 @@
     width: 70%;
     padding: 8px;
 }
+.search-inp-btn-cont{
+    position: relative;
+}
 .search-btn{
-    padding: 8px;
+    position: absolute;
+    right: 15%;
+    background: linear-gradient(45deg, green, transparent);
+    border: none;
+    padding: 9px;
 }
 .header-cont div h1{
     font-family: 'Cedarville Cursive', cursive;
@@ -34,4 +41,19 @@
 .input-disp{
     text-align: center;
     color: indianred;
+    margin: 30px;
+}
+.search-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}
+.search-list li button{
+    width: 75px;
+    background-color: #373789;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
 }
